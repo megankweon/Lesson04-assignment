@@ -1,0 +1,124 @@
+
+
+body {
+  font-size: 100%;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+  color: #2d2d2d;
+}
+
+img {
+  max-height: 20rem;
+}
+
+/***************** NAV *****************/
+
+nav {
+  margin-bottom: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .row {
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #3d73c4;
+  padding: .5rem;
+}
+
+.cart-info {
+  color: white;
+}
+.row a {
+  color: white;
+}
+
+/**************** HERO *****************/
+
+header img {
+  max-height: 14rem;
+  padding: 1rem;
+  float: left;
+}
+
+header h1 {
+  padding-top: 4.3rem;
+  font-family: 'Anton', sans-serif;
+}
+
+h1 .logo-w {
+  font-size: 3.5rem;
+}
+
+.logo-txt {
+  color: #3d73c4;
+  font-size: 3.5rem;
+}
+
+.linebreak {
+  display: table;
+}
+
+
+/**************** ASIDE ****************/
+
+input[type="submit"] {
+  padding: .25rem;
+  background-color: #3D7FCF;
+  border: 1px solid #3D7FCF;
+  border-radius: 5px;
+  font-size: .75rem;
+  color: white;
+}
+
+.mailing-form {
+  margin-top: 6rem;
+}
+
+
+
+
+/*********** PRODUCTS SECTION ***********/
+
+main {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+section {
+  padding: 0 .75rem;
+}
+
+h2 {
+  padding-top: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+.product {
+  width: 25rem;
+  height: 55rem;
+  border: 1px solid black;
+  padding: 2rem;
+  margin: 2rem;
+  display: inline-block;
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}

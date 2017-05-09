@@ -49,3 +49,10 @@ var products = [
   }
 ]
 
+function mailForm() {
+  event.preventDefault();
+  var email = document.emailForm.email.value;
+
+  console.log("added this email [" + email + "] to our mailing list.");
+  alert("Thank you for signing up to our mailing list. " + email + " !");
+}

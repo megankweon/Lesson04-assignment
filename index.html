@@ -45,12 +45,12 @@
     <div class="container-fluid">
       <div class="row">
         <aside class="col-md-2 mailing-form">
-          <form>
+          <form class="email" name="emailForm">
             <div>
-              <label>Sign up for our mailing list: </label>
+                <label for="email">Sign up for our mailing list: </label>
                 <input type="email" name="email">
             </div>
-            <input type="submit" value="Submit">
+            <input type="submit" onclick="mailForm()" value="Submit">
           </form>
         </aside>
 
@@ -120,6 +120,9 @@
       </div>
     </section>
   </main>
-  <script type="text/javascript" src="js/script.js"></script>
+
 </body>
+
+<script type="text/javascript" src="js/script.js"></script>
+
 </html>

@@ -70,4 +70,4 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing 
-[update this section with information about the testing steps you took to ensure site quality]
+In order to ensure the quality of the website, I opened and ran the website on multiple browsers to ensure consistent layouts among browsers. Also, I made sure to test different window sizes of the browsers to test whether the grid system was functional. 
